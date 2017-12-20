@@ -1,7 +1,6 @@
-</br>
-</br>
-</br>
-<h1><%= current_user.firstname %> <%= current_user.lastname %></h1>
-<%= image_tag current_user.avatar.url(:medium) %>
+<div class="cont" style="text-align: center">
+	<h1><%= current_user.firstname %> <%= current_user.lastname %></h1>
+	<div class="userimg"><%= image_tag current_user.avatar.url(:small) %> </div>
 
-<p><%= link_to "Home", root_path %></p>
+	<p><%= link_to "Home", root_path %></p>
+</div>
