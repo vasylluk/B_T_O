@@ -1,29 +1,25 @@
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <%= link_to "BTO" , root_path , class: "navbar-brand" %>
-    </div>
-   
-
-    <ul class="nav navbar-nav navbar-right">
-      <% if current_user.nil? %>
-    <li>
-    <%= link_to user_session_path do %>
-      <i class="glyphicon glyphicon-user"></i> Login
-    <%= link_to new_user_registration_path do %>
-      <i class="glyphicon glyphicon-user"></i> Sign up
-      <%end%>
-    </li>
-
-      <%end%>
-    </li>
-      <% else %> 
-    <li>
-      <%= link_to destroy_user_session_path, method: :delete do %>
-      <i class="glyphicon glyphicon-log-in"></i> Logout
-  <%end%>
-    </li>
-       <% end %>
-    </ul>
-  </div>
-</nav>
+<div class="boxmenu">
+        <img src="images/logo.png" alt="logo" class="logo">
+        <nav>
+          <ul class="menu">
+            <% if current_user.nil? %>
+              <li>
+                <%= link_to "Увійти", new_user_session_path %>
+              </li>
+              <li>
+                <%= link_to "Зареєструватися", new_user_registration_path %>
+              </li>
+            <% else %> 
+              <li>
+                <%= link_to "Розпочати тестування", tests_show_path %>
+              </li>
+              <li>
+                <%= link_to "Кабінет", show_path %>
+              </li>
+              <li>
+                 <%= link_to "Вийти",destroy_user_session_path, method: :delete %>
+              </li>
+            <%end%>
+          </ul>
+        </nav>
+</div>

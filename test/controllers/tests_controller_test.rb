@@ -1,8 +1,8 @@
 require 'test_helper'
 
-class UsersControllerTest < ActionDispatch::IntegrationTest
+class TestsControllerTest < ActionDispatch::IntegrationTest
   test "should get show" do
-    get users_show_url
+    get tests_show_url
     assert_response :success
   end
 

@@ -1,1 +1,7 @@
-<%= current_user.email %>
+</br>
+</br>
+</br>
+<h1><%= current_user.firstname %> <%= current_user.lastname %></h1>
+<%= image_tag current_user.avatar.url(:medium) %>
+
+<p><%= link_to "Home", root_path %></p>

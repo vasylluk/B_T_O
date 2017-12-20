@@ -1,0 +1,713 @@
+    1  sudo service network-manager restart
+    2  killall nm-applet && nm-applet & 
+    3  iw reg get
+    4  sudo nano /etc/default/crda
+    5  sudo service network-manager restart
+    6  nm-toolnm
+    7  nm-tool
+    8  sudo service network-manager restart
+    9  source ~/.rvm/scripts/rvm
+   10  rvm install 2.4.1
+   11  ruby -v
+   12  rvm gemset create rails5.1.4
+   13  rvm gemset use rails5.1.4
+   14  gem install rails -v 5.1.4
+   15  rails -v
+   16  mkdir sites
+   17  cd sites
+   18  rails new my
+   19  cd my
+   20  rails s
+   21  sudo service network-manager res
+   22  start
+   23  cd ..
+   24  sudo service network-manager res
+   25  rails new my
+   26  cd sites
+   27  cd my
+   28  cd ..
+   29  cd my
+   30  rails s
+   31  bundle install
+   32  rails s
+   33  sudo apt-get install nodejs
+   34  rails s
+   35  rails server
+   36  rails server -h
+   37  rails server
+   38  wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+   39  sudo apt-get install apt-transport-https
+   40  sudo apt-get install sublime-text
+   41  echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+   42  echo "deb https://download.sublimetext.com/ apt/dev/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+:
+   43  sudo apt-get install sublime-text
+   44  sudo add-apt-repository ppa:webupd8team/sublime-text-3
+   45  sudo apt-get update
+   46  sudo apt-get install sublime-text-installer
+   47  wget http://c758482.r82.cf2.rackcdn.com/Sublime\ Text\ 2.0.2\ x64.tar.bz2
+   48  tar vxjf Sublime\ Text\ 2.0.2\ x64.tar.bz2
+   49  cd sites
+   50  cd my
+   51  cd ror-lab master
+   52  cd ror-lab-master
+   53  cd ror_lab-master
+   54  rails s
+   55  cd sites
+   56  cd my
+   57  cd ror_lab-master
+   58  source ~/.rvm/scripts/rvm
+   59  rvm gemset use rails5.1.4
+   60  rails s
+   61  bundle install
+   62  gem install pg
+   63  bundle install
+   64  gem install pg
+   65  cd ..
+   66  sudo apt-get install chromium-browser
+   67  cdsites
+   68  cd sites
+:
+   69  cd blog
+   70  rails s
+   71  rails g controller posts new
+   72  bundle install
+   73  rails g controller posts new
+   74  rails g model post user_id:integer title:string body:string
+   75  rails db:migrate
+   76  rails s
+   77  bundle install
+   78  rails g active_admin:install
+   79  rake db:migrate
+   80  rake db:seed
+   81  rails generate active_admin:resource User
+   82  rails generate active_admin:resource Post
+   83  rails s
+   84  rake db:seed
+   85  rails s
+   86  rake db:seed
+   87  rails s
+   88  bundle install
+   89  subl -l
+   90  source ~/.rvm/scripts/rvm
+   91  rvm gemset use rails5.1.4
+   92  gem install pg
+   93  cd psev
+   94  gem install pg
+   95  bundle install
+   96  gem install pg
+   97  gem install pg -- --with-pg-config=<path to pg_config>
+   98  bundle config build.pg --with-pg-config=<path to pg_config>
+   99  sudo apt-get install libpq-dev
+  100  gem install pg
+  101  bundle install
+  102  bundle info pg
+  103  rails s
+  104  git remote add origin https://github.com/vasylluk/non_psevdo.git
+  105  sudo apt inastall git
+  106  sudo apt install git
+  107  git remote add origin https://github.com/vasylluk/non_psevdo.git
+  108  git init
+  109  git remote add origin https://github.com/vasylluk/non_psevdo.git
+  110  git push -u origin master
+:
+  111  git add all
+  112  git add .
+  113  git add all
+  114  git push -u origin master
+  115  git remote add origin https://github.com/vasylluk/non_psevdo.git
+  116  git add all
+  117  git remote add origin https://github.com/vasylluk/non_psevdo.git
+  118  git push -u origin master
+  119  git add gitignore
+  120  git push -u origin master
+  121  git remote rm origin
+  122  git remote add origin https://github.com/vasylluk/non_psevdo.git
+  123  git push -u origin master
+  124  git add all
+  125  git init
+  126  git push -u origin master
+  127  git add .
+  128  git push -u origin master
+  129  git init
+  130  git add all
+  131  git remote update
+  132  git push -u origin master
+  133  git add all
+  134  git remote add origin https://github.com/vasylluk/non.psevdo.git
+  135  git remote rm origin
+  136  git remote add origin https://github.com/vasylluk/non.psevdo.git
+  137  git push -u origin master
+  138  git add all
+  139  git push -u origin master
+  140  git status
+  141  git remote rm origin
+  142  git status
+  143  cd ..
+  144  cd psev
+  145  git remote add origin https://github.com/vasylluk/non.psevdo.git
+  146  git push -u origin master
+  147  git add gitignore
+  148  git status
+  149  git init
+  150  git status
+  151  cd ..
+  152  cd psev
+:
+  153  git init
+  154  git status
+  155  git push -u origin master
+  156  rails db:migrate
+  157  git push -u origin master
+  158  git status
+  159  git push -u origin master
+  160  git add gitignore
+  161  git add all
+  162  git add  -all
+  163  git add  --all
+  164  git status
+  165  bundle install
+  166  git add  --all
+  167  git remote rm origin
+  168  git remote add origin https://github.com/vasylluk/blog.git
+  169  git push -u origin master
+  170  git add  --all
+  171  git push -u origin master
+  172  git add .
+  173  git commit -m "First"
+  174  git config --global user.email "vasyl3luk@gmail.com"
+  175  git config --global user.name "vasylluk"
+  176  git remote add origin https://github.com/vasylluk/non_psevdo.git
+  177  git push -u origin master
+  178  git add .
+  179  git push -u origin master
+  180  echo "# non_psevdo" >> README.md
+  181  git init
+  182  git add README.md
+  183  git commit -m "first commit"
+  184  git remote add origin https://github.com/vasylluk/non_psevdo.git
+  185  git push -u origin master
+  186  git remote rm origin
+  187  git remote add origin https://github.com/vasylluk/non_psevdo.git
+  188  git push -u origin master
+  189  gem install sqlite3 -v '1.3.13'
+  190  bundle istall
+  191  bundle install
+  192  git push -u origin master
+  193  rake db:migrate
+  194  git push -u origin master
+:
+  195  rake db:create
+  196  rake db:migrate
+  197  git push -u origin master
+  198  rails db:migrate
+  199  sudo apt-get install postgresql
+  200  rails db:migrate
+  201  rails s
+  202  git push -u origin master
+  203  rails s
+  204  rails db:migrate
+  205  rake db:migrate
+  206  git add all
+  207  git push -u origin master
+  208  git push --help
+  209  git remote add origin https://github.com/vasylluk/non_psevdo.git
+  210  git push -u origin master
+  211  rails db:migrate
+  212  gem install sqlite3 -v '1.3.13'
+  213  bundle install
+  214  rails db:migrate
+  215  git remote add origin https://github.com/vasylluk/non_psevdo.git
+  216  git push -u origin master
+  217  apt-get install libsqlite3-dev
+  218  cd ..
+  219  apt-get install libsqlite3-dev
+  220  cd psev
+  221  gem install sqlite3 -v '1.3.13'
+  222  bundle install
+  223  sudo apt install ruby-bundler
+  224  bundle install
+  225  ruby -v
+  226  bundle install
+  227  subl -l
+  228  cd psev
+  229  gem install pg
+  230  cd psev
+  231  source ~/.rvm/scripts/rvm
+  232  rvm gemset use rails5.1.4
+  233  rails s
+  234  subl -l
+  235  rails s
+  236  source ~/.rvm/scripts/rvm
+:
+  237  rvm gemset use rails5.1.4
+  238  cd sites
+  239  cd blog
+  240  rails s
+  241  subl -l
+  242  source ~/.rvm/scripts/rvm
+  243  cd sites
+  244  cd blog
+  245  rvm gemset use rails5.1.4
+  246  subl -l
+  247  rails s
+  248  bundle install
+  249  rails s
+  250  bundle install
+  251  rails s
+  252  rails g migration add_nickname_to_users nickname:string
+  253  rails db:migrate
+  254  rails generate devise:views users
+  255  rails s
+  256  rails g model comment text:string
+  257  rails db:migrate
+  258  rails g active_admin:resource comment
+  259  rails s
+  260  rails db:rollback
+  261  rails d model comment
+  262  rails g model postcomment text:string post_id:integer user_id:integer
+  263  rails db:migrate
+  264  rails s
+  265  rails g active_admin:resource comment
+  266  rails db:migrate
+  267  rails g active_admin:resource postcomment
+  268  rails generate active_admin:resource postcomment
+  269  rails db:migrate
+  270  rails s
+  271  rails db:rollback
+  272  rails db:migrate
+  273  rails generate active_admin:resource postcomment
+  274  rails d model comment
+  275  rails d model Comment
+  276  rails generate active_admin:resource postcomment
+  277  rails db:migrate
+  278  rails s
+:
+  279  rails g controller postcomments
+  280  rails db:rollback
+  281  rails d model Comment
+  282  rails g controller postcomments
+  283  rails db:migrate
+  284  rails s
+  285  source ~/.rvm/scripts/rvm
+  286  rvm gemset use rails5.1.4
+  287  cd sites
+  288  cd blog
+  289  rails s
+  290  sub l -l
+  291  subl -l
+  292  rails s
+  293  cd ..
+  294  cd blog and comment
+  295  cd ..
+  296  cd blog and comment
+  297  cd ..
+  298  cd blog and comment
+  299  cd ..
+  300  cd blog and comment
+  301  cd blog_and_comment
+  302  cd bloger
+  303  cd
+  304  source ~/.rvm/scripts/rvm
+  305  rvm gemset use rails5.1.4
+  306  cd bloger
+  307  rails s
+  308  bundle install
+  309  rails s
+  310  rails db:migrate
+  311  rails s
+  312  rails db:migrate
+  313  rails s
+  314  cd ..
+  315  cd sites
+  316  cd blog(copy)
+  317  cd blog (copy)
+  318  cd blog1
+  319  cd ..
+  320  cd sites
+:
+  321  cd blog1
+  322  cd blog 1
+  323  cd ..
+  324  cd blog1
+  325  rails s
+  326  git remote add origin https://github.com/vasylluk/bloger.git
+  327  git push -u origin master
+  328  git remote add .
+  329  ls
+  330  git init
+  331  git remote add origin https://github.com/vasylluk/bloger.git
+  332  git push -u origin master
+  333  git remote add origin https://github.com/vasylluk/blog1.git
+  334  git push -u origin master
+  335  git init
+  336  git add .
+  337  git remote add origin https://github.com/vasylluk/bloger.git
+  338  git push -u origin master
+  339  git remote rm origin
+  340  git remote add origin https://github.com/vasylluk/bloger.git
+  341  git push -u origin master
+  342  cd ..
+  343  cd blog1
+  344  git push -u origin master
+  345  git remote rm origin
+  346  git init
+  347  git remote add origin https://github.com/vasylluk/bloger.git
+  348  git push -u origin master
+  349  git checkout -b master
+  350  git push -u origin master
+  351  git remote add origin https://github.com/vasylluk/bloger.git
+  352  git push -u origin master
+  353  git checkout  master
+  354  git check master
+  355  git check-attr master
+  356  git commit -m "initial commit"
+  357  git push -u origin master
+  358  git remote -v 
+  359  git remote remove origin 
+  360  git remote add origin https://github.com/vasylluk/bloger.git
+  361  git push -u origin master
+  362  subl -l
+:
+  363  source ~/.rvm/scripts/rvm
+  364  rvm gemset use rails5.1.4
+  365  cd sites
+  366  cd blog1
+  367  rails s
+  368  rails db:migrate
+  369  rails s
+  370  sudo service network-manager restart
+  371  killall nm-applet && nm-applet &
+  372  sudo lshw -class network
+  373  sudo vi /etc/pm/config.d/config
+  374  sudo service network-manager restart
+  375  sudo apt update
+  376  sudo apt dist-upgrade
+  377  sudo apt install pastebinit
+  378  wget -N -t 5 -T 10 https://github.com/UbuntuForums/wireless-info/raw/master/wireless-info && chmod +x wireless-info && ./wireless-info
+  379  cd java-koans-master
+  380  cd koans
+  381  run.sh
+  382  ./run.sh
+  383  source ~/.rvm/scripts/rvm
+  384  rvm gemset use rails5.1.4
+  385  subl 
+  386  cd sites
+  387  cd blog1
+  388  rails s
+  389  bundle install
+  390  rails generate paperclip user avatar
+  391  rails db:migrate
+  392  rails s
+  393  rails db:migrate
+  394  rails s
+  395  source ~/.rvm/scripts/rvm
+  396  rvm gemset use rails5.1.4
+  397  cd sites
+  398  cd blog1
+  399  rails s
+  400  subl
+  401  rails s
+  402  пше іефегі
+  403  git status
+  404  git add all
+:
+  405  git remote add origin https://github.com/vasylluk/bloger.git
+  406  git add all
+  407  git commit -a
+  408  git add blog1
+  409  git add sites/blog1
+  410  git add -all
+  411  git add --all
+  412  git commit 
+  413  git commit -m "some changes and upgrades"
+  414  git status
+  415  git push
+  416  git push --help
+  417  git push --all
+  418  git pull
+  419  git push
+  420  git push --all
+  421  git push origin master --force
+  422  cd bloggy
+  423  git remote add origin https://github.com/ramossx/bloggy.git
+  424  git init
+  425  git remote add origin https://github.com/ramossx/bloggy.git
+  426  git push -u origin master
+  427  git remote add origin https://github.com/ramossx/bloggy.git
+  428  git push -u origin master
+  429  git commit -m "first commit"
+  430  git push -u origin master
+  431  git add .
+  432  git remote add origin https://github.com/ramossx/bloggy.git
+  433  git push -u origin master
+  434  git commit -m "first commit"
+  435  git push -u origin master
+  436  source ~/.rvm/scripts/rvm
+  437  rvm gemset use rails5.1.4
+  438  subl
+  439  cd sites
+  440  cd blog
+  441  rails s
+  442  cd ..
+  443  cd blog1
+  444  rails s
+  445  bundle install
+  446  rails s
+:
+  447  cd ..
+  448  cd bloger
+  449  rails s
+  450  cd ..
+  451  cd sites
+  452  cd blog1
+  453  rails s
+  454  rails s
+  455  bundle install
+  456  rails g client_side_validations:install
+  457  rails s
+  458  bundle install
+  459  rails s
+  460  bundle install
+  461  rails generate uploader Photo
+  462  rails g controller photos index
+  463  rails g model photo user_id:integer category_id:integer name:string
+  464  rails g model category name:string
+  465  rails generate active_admin:resource photo
+  466  rails generate active_admin:resource category
+  467  rails db:migrate
+  468  rails g migration add_photo_to_photos photo:string
+  469  rails db:migrate
+  470  rails s
+  471  source ~/.rvm/scripts/rvm
+  472  rvm gemset use rails5.1.4
+  473  cd sites
+  474  cd blog1
+  475  subl
+  476  rails s
+  477  git init
+  478  git add .
+  479  git commit -m "first commit"
+  480  git remote add origin https://github.com/vasylluk/blogger-v2.1.git
+  481  git push -u origin master
+  482  git add --all
+  483  git push -u origin master
+  484  git rm remote origin
+  485  git remote rm origin
+  486  git remote add origin https://github.com/vasylluk/blogger-v2.1.git
+  487  git push -u origin master
+  488  source ~/.rvm/scripts/rvm
+:
+  489  rvm gemset use rails5.1.4
+  490  cd sites
+  491  cd blog1
+  492  subl
+  493  rails g model vote user_id:integer photo_id:integer like:integer
+  494  rails generate active_admin:resource vote
+  495  rails db:migrate
+  496  rails s
+  497  rake db:seed
+  498  rails s
+  499  git remote rm origin
+  500  git init
+  501  git add .
+  502  git commit -m "primus"
+  503  git remote add origin https://github.com/vasylluk/blogger-v2.2.git
+  504  git push -u origin master
+  505  source ~/.rvm/scripts/rvm
+  506  rvm gemset use rails5.1.4
+  507  cd sites
+  508  cd blog1
+  509  rails g model image user_id:integer
+  510  subl
+  511  rails generate paperclip image image
+  512  rails db:migrate
+  513  rails generate active_admin:resource image
+  514  rails g controller images new
+  515  rails s
+  516  cd ..
+  517  cd sites
+  518  rails new lab
+  519  rails g controller users
+  520  bundle install
+  521  gem install bundler
+  522  bundle install
+  523  gem install devise
+  524  bundle install
+  525  rails g controller users new
+  526  cd lab
+  527  rails g controller users new
+  528  bundle install
+  529  rails g model user id:integer nickname:string email:string
+  530  rails db:migrate
+:
+  531  rails db:rollback
+  532  rails generate devise user
+  533  rails db:migrate
+  534  rails s
+  535  cd ..
+  536  cd sites
+  537  rails new labor
+  538  cd labor
+  539  rails g controller users pages index
+  540  rails s
+  541  subl
+  542  bundle install
+  543  rails s
+  544  rails db:migrate
+  545  rails s
+  546  rails g model user nickname:string email:string password:string
+  547  rails s
+  548  rails generate devise:install
+  549  rails s
+  550  rails db:migrate
+  551  rails s
+  552  rails generate devise user
+  553  rails db:migrate
+  554  rails db:rollback
+  555  rails db:migrate
+  556  rails generate devise user
+  557  rails db:migrate
+  558  cd ..
+  559  cd sites
+  560  rails new labv
+  561  cd labv
+  562  rails g controller users 
+  563  bundle install
+  564  rails generate devise:install
+  565  rails generate devise user
+  566  rails generate devise User
+  567  cd ..
+  568  cd labor
+  569  rails s
+  570  cd ..
+  571  rails new start
+  572  cd start
+:
+  573  subl
+  574  rails g controller users 
+  575  bundle install
+  576  cd ..
+  577  cd lb
+  578  rails s
+  579  cd ..
+  580  cd sites
+  581  cd labor
+  582  rails s
+  583  cd ..
+  584  cd lb
+  585  rails s
+  586  rails db:migrate
+  587  cd ..
+  588  rails new ror
+  589  cd lb
+  590  subl
+  591  rails s
+  592  rails db:migrate
+  593  gem uninstall active_admin
+  594  rails db:migrate
+  595  rails s
+  596  cd sites
+  597  rails new BTO
+  598  source ~/.rvm/scripts/rvm
+  599  rvm gemset use rails5.1.4
+  600  rails new BTO
+  601  rails g controller pages index
+  602  cd BTO
+  603  rails g controller pages index
+  604  rails g model user
+  605  subl
+  606  bundle install
+  607  rails generate devise:install
+  608  rails g devise:install
+  609  rails generate --help
+  610  rails generate devise:install
+  611  rails generate devise user
+  612  rails db:migrate
+  613  rails s
+  614  rails db:migrate
+:
+  615  bundle install
+  616  rails db:migrate
+  617  bundle install
+  618  rails g controller users
+  619  rails s
+  620  bundle install
+  621  rails s
+  622  rails generate devise:views users
+  623  rails s
+  624  subl
+  625  source ~/.rvm/scripts/rvm
+  626  rvm gemset use rails5.1.4
+  627  cd sites
+  628  cd BTO
+  629  rails db:migrate
+  630  rails generate migration add_firstname_to_users firstname:string
+  631  rails generate migration add_laststname_to_users lastname:string
+  632  rails generate migration add_age_to_user age:integer
+  633  rails s
+  634  rails db:migrate
+  635  rails s
+  636  cd sites
+  637  cd BTO
+  638  subl
+  639  git init
+  640  git remote rm origin 
+  641  git remote rm origin
+  642  git init
+  643  git add .
+  644  git remote add origin https://github.com/vasylluk/BTO.git
+  645  git push -u origin master
+  646  git commit -m "first commit"
+  647  git remote add origin https://github.com/vasylluk/BTO.git
+  648  git push -u origin master
+  649  cd ..
+  650  !
+  651  history | less
+  652  cd sites
+  653  cd BTO
+  654  source ~/.rvm/scripts/rvm
+  655  rvm gemset use rails5.1.4
+  656  rails s
+  657  bundle install
+  658  git init
+  659  git add .
+  660  git remote add origin https://github.com/vasylluk/BTO.git
+  661  git push -u origin master
+  662  bundle install
+  663  rake db:create
+  664  rake db:migrate
+  665  git init
+  666  git add .
+  667  git remote add origin https://github.com/vasylluk/BTO.git
+  668  git push -u origin master
+  669  bundle install
+  670  rake db:create
+  671  rake db:migrate
+  672  rails db:migrate
+  673  gem install pg
+  674  bundle istall
+  675  bundle install
+  676  rake db:create
+  677  rails db:create
+  678  rake db:create
+  679  rake db:migrate
+  680  rake db:create
+  681  bundle install
+  682  git init
+  683  git add .
+  684  rake db:create
+  685  rake db:migrate
+  686  git push -u origin master
+  687  gem install sqlite3
+  688  bundle install
+  689  git init
+  690  git add .
+  691  git push -u origin master
+  692  rake db:migrate
+  693  rake db:create
+  694  rake db:migrate
+  695  bundle install
+  696  rake db:create
+  697  history | less
+(END)
