@@ -1,6 +1,6 @@
 <div class="cont" style="text-align: center">
 	<h1><%= current_user.firstname %> <%= current_user.lastname %></h1>
-	<div class="userimg"><%= image_tag current_user.avatar.url(:thumb) %> </div>
+	<div class="userimg"><%= image_tag current_user.avatar.url %> </div>
 
 	<p><%= link_to "На головну", root_path %></p>
 </div>
