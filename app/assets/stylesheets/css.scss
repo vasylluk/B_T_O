@@ -125,6 +125,25 @@ nav {
 	margin: 0 auto;
 }
 
+.category_block {
+	display: inline;
+}
+
+.category {
+	background: #7ac7b3;
+	color: #555;
+	width: 80%;
+	height: 160px;
+	margin: 60px auto;
+	transition: all 200ms ease-in;
+}	
+
+.category:hover {
+	width: 83%;
+	height: 170px;
+	box-shadow: 4px 4px 7px
+}
+
 footer {
 	margin-top: 70px;
 	width: 100%;
